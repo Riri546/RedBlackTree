@@ -18,6 +18,6 @@ The red-black tree has the following criteria:
 * The root of the tree is always black
 * The new node is always red
 * Red nodes can only be the left child
-* * All children of the red node are black
+* All children of the red node are black
 
 Accordingly, in order for these conditions to be met, after adding an element to the tree, it is necessary to perform balancing, thanks to which all the criteria above will become valid. There are 3 operations for balancing – a small left turn, a small right turn and a color change.
